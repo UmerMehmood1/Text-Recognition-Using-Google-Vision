@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Black Circle -->
+    <item android:gravity="center">
+        <shape android:shape="oval">
+            <size android:width="65dp" android:height="65dp" /> <!-- Adjust the size here -->
+            <solid android:color="@color/white" />
+        </shape>
+    </item>
+
+    <!-- White Circle -->
+    <item android:id="@+id/upper_circle">
+        <shape android:shape="oval" >
+            <size android:width="80dp" android:height="80dp" /> <!-- Adjust the size here -->
+            <stroke android:color="@color/white" android:width="2dp"/>
+        </shape>
+    </item>
+</layer-list>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.translate.transcribelib.CustomCameraView
+        android:id="@+id/custom_camera_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <androidx.camera.view.PreviewView
+        android:id="@+id/camera_previewview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:backgroundTint="@color/white" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/camera_menu_background">
+
+        <ImageButton
+            android:id="@+id/gallery_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="60dp"
+            android:layout_toStartOf="@id/capture_button"
+            android:background="@drawable/camera_item_background"
+            android:padding="15dp"
+            android:src="@drawable/baseline_photo_library_24"
+            tools:ignore="ContentDescription,SpeakableTextPresentCheck,ImageContrastCheck" />
+
+        <ImageButton
+            android:id="@+id/capture_button"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_centerInParent="true"
+            android:backgroundTint="@android:color/transparent"
+            android:importantForAccessibility="no"
+            android:src="@drawable/capture_button_shape"
+            tools:ignore="SpeakableTextPresentCheck,ImageContrastCheck" />
+
+        <ImageButton
+            android:id="@+id/flash_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="60dp"
+            android:layout_toEndOf="@+id/capture_button"
+            android:background="@drawable/camera_item_background"
+            android:backgroundTint="@color/black"
+            android:importantForAccessibility="no"
+            android:padding="15dp"
+            android:src="@drawable/baseline_flash_off_24"
+            tools:ignore="SpeakableTextPresentCheck,ImageContrastCheck" />
+    </RelativeLayout>
+</RelativeLayout>
