@@ -9,9 +9,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d5bee91c-49b3-4428-bdef-37ebeb2332dd" name="Changes" comment="Initial COmmit">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-    </list>
+    <list default="true" id="d5bee91c-49b3-4428-bdef-37ebeb2332dd" name="Changes" comment="Camera and Selections are working for now" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,37 +43,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "android-custom-viewC:/Users/USER/AndroidStudioProjects/Test/app/src/main/java/com/example/test/CustomCameraView.kt_SELECTED": "CustomCameraView",
-    "android-custom-viewC:/Users/USER/AndroidStudioProjects/Test/app/src/main/java/com/example/test/ObservableScrollView.java_SELECTED": "ObservableScrollView",
-    "android-custom-viewC:/Users/USER/AndroidStudioProjects/Test/app/src/main/java/com/example/test/SelectableTextView.java_SELECTED": "SelectableTextView",
-    "android-custom-viewC:/Users/USER/AndroidStudioProjects/Test/app/src/main/java/com/example/test/SelectableTextView.kt_SELECTED": "SelectableTextView",
-    "android-custom-viewC:/Users/USER/AndroidStudioProjects/Test/app/src/main/java/com/example/test/TextOvelayViewGroupV2.kt_SELECTED": "TextOverlayViewGroupV2",
-    "android-custom-viewC:/Users/USER/AndroidStudioProjects/Test/app/src/main/java/com/example/test/TextOvelayViewGroup_V2.kt_SELECTED": "SelectableTextView",
-    "android-custom-viewC:/Users/USER/AndroidStudioProjects/Test/app/src/main/java/com/example/test/TextOverlayViewGroup.java_SELECTED": "TextOverlayViewGroup",
-    "android-custom-viewC:/Users/USER/AndroidStudioProjects/Test/app/src/main/java/com/example/test/TextSelectionCustomView.kt_SELECTED": "TextSelectionCustomView",
-    "android-custom-viewC:/Users/USER/AppData/Local/Android/Sdk/sources/android-34/android/view/View.java_SELECTED": "View",
-    "android-custom-viewC:/Users/USER/AppData/Local/Android/Sdk/sources/android-34/android/view/ViewGroup.java_SELECTED": "ViewGroup",
-    "android-custom-viewC:/Users/USER/AppData/Local/Android/Sdk/sources/android-34/android/widget/TextView.java_SELECTED": "TextView",
-    "android-custom-viewC:/Users/muham/AppData/Local/Android/Sdk/sources/android-34/android/widget/TextView.java_SELECTED": "TextView",
-    "android-custom-viewD:/Test/app/src/main/java/com/example/test/TextOvelayViewGroupV2.kt_SELECTED": "TextOverlayViewGroupV2",
-    "android-custom-viewD:/Test/app/src/main/java/com/example/test/TextOverlayViewGroupV2.kt_SELECTED": "TextOverlayViewGroupV2",
-    "cidr.known.project.marker": "true",
-    "last_opened_file_path": "D:/Test",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "reference.settings.ide.settings.new.ui"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;android-custom-viewC:/Users/USER/AndroidStudioProjects/Test/app/src/main/java/com/example/test/CustomCameraView.kt_SELECTED&quot;: &quot;CustomCameraView&quot;,
+    &quot;android-custom-viewC:/Users/USER/AndroidStudioProjects/Test/app/src/main/java/com/example/test/ObservableScrollView.java_SELECTED&quot;: &quot;ObservableScrollView&quot;,
+    &quot;android-custom-viewC:/Users/USER/AndroidStudioProjects/Test/app/src/main/java/com/example/test/SelectableTextView.java_SELECTED&quot;: &quot;SelectableTextView&quot;,
+    &quot;android-custom-viewC:/Users/USER/AndroidStudioProjects/Test/app/src/main/java/com/example/test/SelectableTextView.kt_SELECTED&quot;: &quot;SelectableTextView&quot;,
+    &quot;android-custom-viewC:/Users/USER/AndroidStudioProjects/Test/app/src/main/java/com/example/test/TextOvelayViewGroupV2.kt_SELECTED&quot;: &quot;TextOverlayViewGroupV2&quot;,
+    &quot;android-custom-viewC:/Users/USER/AndroidStudioProjects/Test/app/src/main/java/com/example/test/TextOvelayViewGroup_V2.kt_SELECTED&quot;: &quot;SelectableTextView&quot;,
+    &quot;android-custom-viewC:/Users/USER/AndroidStudioProjects/Test/app/src/main/java/com/example/test/TextOverlayViewGroup.java_SELECTED&quot;: &quot;TextOverlayViewGroup&quot;,
+    &quot;android-custom-viewC:/Users/USER/AndroidStudioProjects/Test/app/src/main/java/com/example/test/TextSelectionCustomView.kt_SELECTED&quot;: &quot;TextSelectionCustomView&quot;,
+    &quot;android-custom-viewC:/Users/USER/AppData/Local/Android/Sdk/sources/android-34/android/view/View.java_SELECTED&quot;: &quot;View&quot;,
+    &quot;android-custom-viewC:/Users/USER/AppData/Local/Android/Sdk/sources/android-34/android/view/ViewGroup.java_SELECTED&quot;: &quot;ViewGroup&quot;,
+    &quot;android-custom-viewC:/Users/USER/AppData/Local/Android/Sdk/sources/android-34/android/widget/TextView.java_SELECTED&quot;: &quot;TextView&quot;,
+    &quot;android-custom-viewC:/Users/muham/AppData/Local/Android/Sdk/sources/android-34/android/widget/TextView.java_SELECTED&quot;: &quot;TextView&quot;,
+    &quot;android-custom-viewD:/Test/app/src/main/java/com/example/test/TextOvelayViewGroupV2.kt_SELECTED&quot;: &quot;TextOverlayViewGroupV2&quot;,
+    &quot;android-custom-viewD:/Test/app/src/main/java/com/example/test/TextOverlayViewGroupV2.kt_SELECTED&quot;: &quot;TextOverlayViewGroupV2&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Test&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.new.ui&quot;
   },
-  "keyToStringList": {
-    "android-custom-viewC:/Users/USER/AndroidStudioProjects/Test/app/src/main/java/com/example/test/TextOverlayViewGroup.java_TextOverlayViewGroup_DIMENSIONS": [
-      "1080",
-      "1920"
+  &quot;keyToStringList&quot;: {
+    &quot;android-custom-viewC:/Users/USER/AndroidStudioProjects/Test/app/src/main/java/com/example/test/TextOverlayViewGroup.java_TextOverlayViewGroup_DIMENSIONS&quot;: [
+      &quot;1080&quot;,
+      &quot;1920&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\USER\AndroidStudioProjects\Test\app\src\main\res\drawable" />
@@ -170,7 +168,14 @@
       <option name="project" value="LOCAL" />
       <updated>1697295080008</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Camera and Selections are working for now">
+      <created>1697295586454</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1697295586454</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -186,6 +191,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial COmmit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial COmmit" />
+    <MESSAGE value="Camera and Selections are working for now" />
+    <option name="LAST_COMMIT_MESSAGE" value="Camera and Selections are working for now" />
   </component>
 </project>
